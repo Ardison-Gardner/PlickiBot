@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Ardison-Gardner/PlickiBot#readme",
   "dependencies": {
-    "discord.io": "^2.5.3",
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
     "winston": "^3.2.1"
   },
   "devDependencies": {}

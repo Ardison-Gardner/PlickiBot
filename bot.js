@@ -35,7 +35,7 @@ bot.on('message', function(user, userID, channelID, message, event) {
         bot.sendMessage({
           to: channelID,
           message:
-            '**BEEP BEEP BEEP** Plickibot has been initialized. This is the alpha build of Plickibot.',
+            '**BEEP BEEP BEEP** Plickibot has been re-!initialized. This is the alpha build of Plickibot.',
         });
         break;
       // !hello
