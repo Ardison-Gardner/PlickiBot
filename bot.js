@@ -3,9 +3,6 @@ const Discord = require('discord.io');
 const logger = require('winston');
 const auth = require('./auth.json');
 
-// Global variables
-let debCount = 0;
-
 // Logger Settings
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console(), {
