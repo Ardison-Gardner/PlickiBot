@@ -1,7 +1,7 @@
 //Imports
 const Discord = require('discord.io');
 const logger = require('winston');
-const auth = require('./auth.json');
+const auth = require('./token/auth.json');
 
 // Logger Settings
 logger.remove(logger.transports.Console);
